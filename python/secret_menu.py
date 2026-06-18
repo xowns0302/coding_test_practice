@@ -1,3 +1,5 @@
+#비밀 메뉴
+
 #파이썬에서는 문자열 통째로 비교하는 걸 허용함
 m,n,k =map(int, input().split())
 M = input().split()

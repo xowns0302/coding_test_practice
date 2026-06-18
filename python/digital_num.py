@@ -1,3 +1,5 @@
+#전광판
+
 #dictionary를 사용해서 각 숫자가 어떤 위치의 전구가 켜지는지 표현
 light ={'0':'1110111',
         '1':'0010010',
@@ -19,7 +21,7 @@ for k in range(t):
     
     a = (5-len(a))*' ' + a
     b = (5-len(b))*' ' + b
-    
+
     for i in range(5):
         for j in range(7):
             total += (light[a[i]][j] != light[b[i]][j])
